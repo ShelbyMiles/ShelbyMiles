@@ -1,10 +1,8 @@
 # Hi, I'm Odilkhuja 👋
 
-### Python Automation Developer
+### Python Automation & Desktop Application Developer
 
-I build Python applications, automation tools, and desktop software.
-
-Currently working on **ShortsFactory** — a modular desktop application for automated vertical video creation using Python and FFmpeg.
+I build Python applications, automation tools, and desktop software with a focus on clean architecture, maintainability, and automation.
 
 ---
 
@@ -12,41 +10,56 @@ Currently working on **ShortsFactory** — a modular desktop application for aut
 
 ### ShortsFactory
 
-A modular Python application designed to automate the creation of vertical videos for social media.
+ShortsFactory is a modular Python application that automates the creation of vertical videos for modern social media platforms.
 
-Features planned:
+Current development focuses on:
 
-- Video analysis
-- Automated render pipeline
+- Modular software architecture
+- Automated rendering pipeline
 - FFmpeg integration
-- Desktop interface
-- Intelligent project planning
-- Extensible modular architecture
+- Video analysis
+- Project planning
+- Desktop user interface
+- High-performance processing
 
 ---
 
-## 💻 Tech Stack
+## 🛠 Tech Stack
 
 - Python
+- FFmpeg
 - Git
 - GitHub
-- FFmpeg
 - PySide6
 - JSON
 - Automation
+- Desktop Applications
 
 ---
 
-## 📚 Currently Learning
+## 📖 Currently Learning
 
 - Software Architecture
+- Design Patterns
 - Desktop Application Development
 - Video Processing
-- AI-assisted Automation
 - Performance Optimization
+- AI-assisted Automation
+
+---
+
+## 🎯 Goals for 2026
+
+- Finish ShortsFactory MVP
+- Publish open-source automation tools
+- Build production-quality desktop applications
+- Improve software architecture skills
+- Contribute to open-source projects
 
 ---
 
 ## 📫 Contact
 
-GitHub Issues or Discussions
+For collaboration or questions, feel free to reach out through GitHub.
+
+Thanks for visiting my profile! 👋
