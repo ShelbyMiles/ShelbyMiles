@@ -1,16 +1,52 @@
-## Hi there 👋
+# Hi, I'm Odilkhuja 👋
 
-<!--
-**ShelbyMiles/ShelbyMiles** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Python Automation Developer
 
-Here are some ideas to get you started:
+I build Python applications, automation tools, and desktop software.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Currently working on **ShortsFactory** — a modular desktop application for automated vertical video creation using Python and FFmpeg.
+
+---
+
+## 🚀 Current Project
+
+### ShortsFactory
+
+A modular Python application designed to automate the creation of vertical videos for social media.
+
+Features planned:
+
+- Video analysis
+- Automated render pipeline
+- FFmpeg integration
+- Desktop interface
+- Intelligent project planning
+- Extensible modular architecture
+
+---
+
+## 💻 Tech Stack
+
+- Python
+- Git
+- GitHub
+- FFmpeg
+- PySide6
+- JSON
+- Automation
+
+---
+
+## 📚 Currently Learning
+
+- Software Architecture
+- Desktop Application Development
+- Video Processing
+- AI-assisted Automation
+- Performance Optimization
+
+---
+
+## 📫 Contact
+
+GitHub Issues or Discussions
