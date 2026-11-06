@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#210711">
+  <meta name="description" content="Маленькое письмо от большого сердца. Прости меня ❤️">
+  <title>Прости меня ❤️</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="petals" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
+  <main>
+    <section class="scene scene--welcome active" id="welcome" aria-labelledby="welcome-title">
+      <div class="intro">
+        <span class="eyebrow">ОДНО МАЛЕНЬКОЕ ПИСЬМО</span>
+        <h1 id="welcome-title">Для самой прекрасной девушки <span class="pink">♡</span></h1>
+        <p class="soft intro-subtitle">Одно важное слово. На всех языках мира.</p>
+      </div>
+
+      <button id="heartButton" class="heart-button" type="button" aria-label="Открыть моё письмо с извинениями">
+        <svg class="heart-shape" viewBox="0 0 480 440" role="presentation" aria-hidden="true">
+          <defs>
+            <linearGradient id="heartPaint" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f75f87"/>
+              <stop offset=".25" stop-color="#d82556"/>
+              <stop offset=".65" stop-color="#ad153e"/>
+              <stop offset="1" stop-color="#760927"/>
+            </linearGradient>
+            <linearGradient id="heartEdge" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#ffe3e3"/><stop offset=".55" stop-color="#ff7a9c"/><stop offset="1" stop-color="#ff355d"/>
+            </linearGradient>
+            <radialGradient id="heartLight"><stop offset="0" stop-color="#fff" stop-opacity=".4"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+          </defs>
+          <path class="heart-silhouette" d="M240 418 C200 381 26 270 17 163 C9 67 76 19 151 23 C196 25 221 47 240 75 C260 47 284 25 329 23 C404 19 471 67 463 163 C454 270 280 381 240 418Z" fill="url(#heartPaint)" stroke="url(#heartEdge)" stroke-width="4"/>
+          <ellipse cx="162" cy="140" rx="145" ry="105" fill="url(#heartLight)" opacity=".45"/>
+          <path d="M47 149 C44 86 83 45 151 48" stroke="#fff1f1" stroke-width="5" opacity=".34" fill="none" stroke-linecap="round"/>
+          <path d="M435 145 C432 93 399 60 365 55" stroke="#ffe3ea" stroke-width="3" opacity=".25" fill="none" stroke-linecap="round"/>
+        </svg>
+        <span class="heart-content">
+          <span class="language language-top">Forgive me · Perdóname</span>
+          <span class="language language-second">Pardonne-moi · Perdonami</span>
+          <span class="heart-main">Прости<br>меня</span>
+          <span class="language language-third">Meni kechir · ごめんなさい</span>
+          <span class="language language-fourth">Es tut mir leid · 미안해</span>
+          <span class="language language-fifth">对不起 · Beni affet</span>
+          <span class="heart-small">♡</span>
+        </span>
+      </button>
+      <p class="touch-note"><span class="touch-symbol">☝</span> Нажми на сердечко</p>
+      <span class="footer-dust">С любовью и искренним сожалением</span>
+    </section>
+
+    <section class="scene scene--letter" id="letter" aria-labelledby="letter-title" hidden>
+      <div class="letter-wrap">
+        <span class="mini-heart" aria-hidden="true">♡</span>
+        <span class="eyebrow">ВСЁ, ЧТО Я ХОЧУ ТЕБЕ СКАЗАТЬ</span>
+        <h2 id="letter-title">Прости меня, родная...</h2>
+        <div class="ornament" aria-hidden="true"><span></span>♡<span></span></div>
+        <div class="poem">
+          <p>Я не ищу красивых оправданий —<br>Их нет для боли, что я причинил.<br>Среди всех слов, признаний и молчаний<br>Есть главное: прости, что огорчил.</p>
+          <p>Я знаю, «прости» не лечит всё мгновенно,<br>И не вернуть доверие одной строкой.<br>Но ты для меня — такая драгоценная,<br>И я хочу беречь наш мир с тобой.</p>
+          <p>Не попрошу забыть всё в одночасье,<br>Не стану торопить твой нежный взгляд.<br>Хочу поступками вернуть нам счастье<br>И видеть, как глаза твои блестят.</p>
+          <p>Пусть в небе расцветают ярко звёзды,<br>Пусть розы все на свете — для тебя.<br>Мне жаль, что я заставил плакать слёзы.<br>Прости меня. Я говорю любя. ❤️</p>
+        </div>
+        <div class="ornament bottom-ornament" aria-hidden="true"><span></span>♡<span></span></div>
+        <div class="question">
+          <p class="eyebrow">И САМОЕ ГЛАВНОЕ...</p>
+          <h3>Ты простишь меня, красотка?</h3>
+          <div class="answers">
+            <button type="button" class="answer answer--primary" data-answer="yes">Да <span>♡</span></button>
+            <button type="button" class="answer answer--secondary" data-answer="kiss">Конечно, кись <span>♡</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene scene--final" id="final" aria-labelledby="final-title" hidden>
+      <canvas id="fireworks" aria-hidden="true"></canvas>
+      <div class="celebration">
+        <span class="eyebrow">ТЫ САМАЯ ЛУЧШАЯ ♡</span>
+        <h2 id="final-title">Это всё для тебя!</h2>
+        <p id="finalMessage">Спасибо, что подарила мне улыбку. Я очень тебя ценю. ❤️</p>
+        <div class="bouquet-frame">
+          <img src="roses.svg" width="960" height="950" alt="Огромный букет красных роз, сияющие фейерверки и сердечки" loading="eager">
+        </div>
+        <p class="final-caption">Для тебя — хоть миллион алых роз и целое небо салютов ✨</p>
+        <button class="again" id="againButton" type="button">Посмотреть ещё раз ♡</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
